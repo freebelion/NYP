@@ -48,7 +48,7 @@ gizlilik prensibine aykırı davranmış
 olmayız. Bir kesrin pay veya payda
 değerini dışarıya iletmekte sorun yoktur,
 ama olsaydı bile `get` blokunda erişim
-kontrolü sağlayack kodlar ekleyebilirdik.*
+kontrolü sağlayacak kodlar ekleyebilirdik.*
 
 Programda tanımladığım iki kesrin
 pay ve paydasına kendi belirlediğim

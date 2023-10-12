@@ -3,12 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34112.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kesir1", "Kesir1\Kesir1.csproj", "{041FD781-4580-4C04-897B-674C36561C62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kesir1", "Kesir1\Kesir1.csproj", "{041FD781-4580-4C04-897B-674C36561C62}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DFC05CCB-C369-4266-8AD6-250D1A3D0AA1}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kesir2", "Kesir2\Kesir2.csproj", "{EDDD03CF-9E79-4189-8F5D-5F1FF5201AC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kesir3", "Kesir3\Kesir3.csproj", "{388706AC-87DF-4485-9F88-9124C19DE724}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kesir4", "Kesir4\Kesir4.csproj", "{AAF43DC9-FD07-456F-8610-862E6B31A408}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +26,18 @@ Global
 		{041FD781-4580-4C04-897B-674C36561C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{041FD781-4580-4C04-897B-674C36561C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{041FD781-4580-4C04-897B-674C36561C62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDDD03CF-9E79-4189-8F5D-5F1FF5201AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDDD03CF-9E79-4189-8F5D-5F1FF5201AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDDD03CF-9E79-4189-8F5D-5F1FF5201AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDDD03CF-9E79-4189-8F5D-5F1FF5201AC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{388706AC-87DF-4485-9F88-9124C19DE724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{388706AC-87DF-4485-9F88-9124C19DE724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{388706AC-87DF-4485-9F88-9124C19DE724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{388706AC-87DF-4485-9F88-9124C19DE724}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAF43DC9-FD07-456F-8610-862E6B31A408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAF43DC9-FD07-456F-8610-862E6B31A408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAF43DC9-FD07-456F-8610-862E6B31A408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAF43DC9-FD07-456F-8610-862E6B31A408}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

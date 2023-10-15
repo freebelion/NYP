@@ -60,8 +60,44 @@ aktarıyorduk.
 Hem 0 değeri, hem de olası negatif değerlerin
 yol açabileceği sorunları önceden düşünerek,
 bu projede `Kesir` sınıf tanımını daha sağlam
-olacak şekilde yeniden düzenledim.
+olacak şekilde yeniden düzenledim.<br>
+Kısacası, `_pay` ve `_payda`
+üye değişkenlerinin değerlerini
+dışarıdan değiştirme işlemlerini
+yalnızca kontrollü erişim sağlayan
+özellikler aracılığıyla yaptırdım.
+Böylece özellik tanımlarındaki kodları
+gerektikleri yerde yeniden kullandım.
+> *"Kodların yeniden kullanımı"
+  (code reuse) nesneye yönelik
+  programlamanın üçüncü ya da
+  her ne kaçıncı
+  önemli prensidir.*
+
 Elim değmişken, kesrin ondalıklı eşdeğerini
 hesaplayan `Oran` fonksiyonu yerine de
 ondalıklı değeri veren bir tür dönüşüm
-işlemcisi tanımladım.
+işlemcisi tanımladım.<br>
+Bir tür dönüşüm işlemcisinin yaılış şekli,
+yani "imzası" (*signature*) bu sınıf
+tanımındaki gibidir; dışarıdan erişime
+açık olduğunu belirleyen `public` etiketi,
+işlemcinin sınıfa ait bir davranış
+olduğunu gösteren `static` etiketi,
+tanımın bir işlemci olduğunu belirten
+`operator` terimi,
+sonuç türü (yani dönüşüm sonucunda elde
+edilecek olan tür),
+argüman olarak da dönüştürülecek olan
+nesnenin referansı.
+> *Bir dönüşüm işlemcisin **implicit**
+  olarak etiketlenmesi durumunda
+  tür dönüştürücü müsait her durumda
+  kendiliğinden işleme konur,
+  ama bu her zaman istenecek
+  bir davranış değildir.<br>
+  Bunu deneyerek görmeniz için
+  sınıf tanımına **implicit** etiketli
+  bir karakter dizgisi dönüştürücüsü
+  ekledim. Sonucunu program komutlarının
+  sonuncusunda görebilirsiniz.*

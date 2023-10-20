@@ -90,7 +90,7 @@ kendisi oluşturmalıdır.
 
 Kurucu fonksiyon tanım başlığında
 boş kurucu fonksiyon referansı ekleyerek,
-bu işi yine boş kurucu fonksiyonai
+bu işi yine boş kurucu fonksiyona
 havale ettik. Daha donra bu yeni
 kurucu fonksiyon referansı argüman olarak
 gelen `Nokta` nesnesinin koordinatlarını

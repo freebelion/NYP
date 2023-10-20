@@ -15,7 +15,7 @@ erişime kapalıdır.
 kendime kolaylık olsun diye,
 üye değişkenler `pay` ve `payda`yı
 dışarıdan erişime açmak için
-`public` etiketiyle tanımlamıştım.<br>
+`public` etiketiyle tanımlamıştım.*<br>
 
 
 Bu projede sınıf üye değişkenlerine
@@ -38,7 +38,7 @@ Bunu da özellik (*property*) tanımlarıyla
 sağladım. Üye değişkenleri ayırt etmek
 için başlarına alt çizgi karakteri ekledim.
 Adet yerini bulsun diye baş harflerini
-büyük yaptığı özellikler birer fonksiyon
+büyük yaptığım özellikler birer fonksiyon
 gibi davranan `get` bloklarında
 gizli üye değişkenlerin değerlerini
 dışarıya iletiyorlar.

@@ -1,6 +1,6 @@
-﻿namespace Banka1
+﻿namespace Banka2
 {
-    internal class Banka1Program
+    internal class Banka2_Program
     {
         static void Main(string[] args)
         {
@@ -9,11 +9,14 @@
 
             List<Hesap> hesaplar = new List<Hesap>();
 
-            for(int i=0; i < 10; i++)
+            for (int i = 0; i < 5; i++)
             { hesaplar.Add(new Hesap()); }
 
+            for (int i = 0; i < 5; i++)
+            { hesaplar.Add(new KrediliHesap()); }
+
             string? cevap;
-            Console.WriteLine("Bu program belli sayıda banka hesabı üzerinde rasgele işlemler yaptıracaktır.");
+            Console.WriteLine("Bu program belirsiz sayıda banka hesabı üzerinde rasgele işlemler yaptıracaktır.");
             Console.WriteLine("ENTER tuşuna basarak döngüyü devam ettirebilirsiniz.");
             Console.WriteLine("Döngüyü sonlandırmak için başka herhangi bir tuşa basabiliriniz.");
 
@@ -27,7 +30,7 @@
 
                 decimal tutar = (decimal)(1000 + 10000 * rnd.NextDouble());
 
-                if((rnd.Next() % 2) != 0)
+                if ((rnd.Next() % 2) != 0)
                 {
                     h.ParaEkle(tutar);
                 }

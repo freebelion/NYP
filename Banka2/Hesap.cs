@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Banka1
+namespace Banka2
 {
     class Hesap
     {
@@ -38,8 +38,8 @@ namespace Banka1
 
         public virtual void ParaCek(decimal tutar)
         {
-            if(_bakiye >= tutar)
-            { _bakiye -= tutar; }           
+            if (_bakiye >= tutar)
+            { _bakiye -= tutar; }
         }
     }
 }

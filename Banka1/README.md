@@ -53,10 +53,6 @@ O yüzden, daha şimdiden faydalı olabilecek başka eklemeler yaptım.
   hesap bakiyesine ekliyor.
 - `ParaCek` fonksiyonu argüman olarak iletilen tutarı
   *bakiye yeterliyse* hesap bakiyesinden düşüyor.
-- `BakiyeYeterli` fonksiyonu argüman olarak iletilen tutarı
-  hesap bakiyesiyle karşılaştırıyor ve bakiye bu tutarı
-  karşılıyorsa olumlu `true` sonucu,
-  karşılamıyorsa`olumsuz `false` sonucu gönderiyor.
 
-Program kodlarında bütünüyle rasgele tarih ve zamanlarda
-`Hesap`türü nesneler üzerinde hayali işlemler yaptırıyorum.
+Program kodlarında `Hesap` türü 10 adet nesne
+üzerinde hayali işlemler yaptırıyorum.

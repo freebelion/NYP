@@ -13,10 +13,10 @@ olacaktır. Dosya kalabalığını azaltmak için birçok projede yalnızca
 Projeleri derslerdeki işlenme sırasıyla aşağıda listeliyorum:
 
 1. [**Kesir1**](Kesir1/README.md)
-2. [**Kesir2**](Kesir2/README.md)
-2. [**Kesir3**](Kesir3/README.md)
-2. [**Kesir4**](Kesir4/README.md)
-2. [**Kesir5**](Kesir5/README.md)
-2. [**Vector1**](Vector1/README.md)
-2. [**Dikdortgen1**](Dikdortgen1/README.md)
-2. [**Banka1**](Banka1/README.md)
+1. [**Kesir2**](Kesir2/README.md)
+1. [**Kesir3**](Kesir3/README.md)
+1. [**Kesir4**](Kesir4/README.md)
+1. [**Kesir5**](Kesir5/README.md)
+1. [**Vector1**](Vector1/README.md)
+1. [**Dikdortgen1**](Dikdortgen1/README.md)
+1. [**Banka1**](Banka1/README.md)

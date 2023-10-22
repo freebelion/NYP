@@ -22,7 +22,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vector1", "Vector1\Vector1.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dikdortgen1", "Dikdortgen1\Dikdortgen1.csproj", "{20B1879B-A342-44B7-92C1-6FCF01D83936}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banka1", "Banka1\Banka1.csproj", "{7CA41EC1-3A1F-4909-960F-C863D5E1F3F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Banka1", "Banka1\Banka1.csproj", "{7CA41EC1-3A1F-4909-960F-C863D5E1F3F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banka2", "Banka2\Banka2.csproj", "{4057464E-FA4C-4E43-A7FA-EFDE40C23AFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,6 +64,10 @@ Global
 		{7CA41EC1-3A1F-4909-960F-C863D5E1F3F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CA41EC1-3A1F-4909-960F-C863D5E1F3F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CA41EC1-3A1F-4909-960F-C863D5E1F3F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4057464E-FA4C-4E43-A7FA-EFDE40C23AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4057464E-FA4C-4E43-A7FA-EFDE40C23AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4057464E-FA4C-4E43-A7FA-EFDE40C23AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4057464E-FA4C-4E43-A7FA-EFDE40C23AFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

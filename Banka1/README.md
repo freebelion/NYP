@@ -1,9 +1,6 @@
 ﻿## Banka1
 Bu projede `static` terimiyle sınıfa ait ortak kullanılacak
 üye değişkenler tanımlamayı gösteriyorum.
-Buna ek olarak, hayali *ve ilkel* bir merkezi banka
-yönetim sistemini temsil edecek bir `static` sınıf tanımı
-oluşturuyorum.
 
 ### `Hesap` Sınıf tanımındaki `static` numaralandırıcı
 `Hesap` sınıf tanımı gerçek hayattaki bir bankanın yönetim
@@ -60,3 +57,6 @@ O yüzden, daha şimdiden faydalı olabilecek başka eklemeler yaptım.
   hesap bakiyesiyle karşılaştırıyor ve bakiye bu tutarı
   karşılıyorsa olumlu `true` sonucu,
   karşılamıyorsa`olumsuz `false` sonucu gönderiyor.
+
+Program kodlarında bütünüyle rasgele tarih ve zamanlarda
+`Hesap`türü nesneler üzerinde hayali işlemler yaptırıyorum.

@@ -48,3 +48,32 @@ nesnelerin listeinde son beş eleman aslında
 Programı çalıştırıp denerseniz,
 1005 ila 1009 numaralı bu hesaplarda
 bakiyenin eksiye düşebildiğini göreceksiniz.
+Onlar da `hesaplar` listesinde `Hesap` sınıfı
+türünden elemanlar olarak gözükmektedir,
+ama para çekme işlemi onlardan birisine
+denk gelirse eksi limite kadar düşme
+imkanı sağlamaktadırlar.
+
+### Türetilmiş sınıfta yenisini tanımlama
+Türetilmiş bir sınıf, `new` etiketini kullanarak
+ata sınıfın bir özellik ya da fonksiyonunun
+"yenisini" tanımlayabilir. Bunu denemek için,
+`KrediliHesap` sınıfındaki `ParaCek` fonksiyonunun
+`override` etiketini `new` diye değiştirin.
+Bu değişiklikten sonra, deneme kodlarında
+`hesaplar` listesindeki KrediliHesap` türü
+elemanların hiç eksiye düşmediklerini göreceksiniz.
+Çünkü `new` etiketli fonksiyon ata sınıftan miras
+alınan fonksiyonun yerine geçmez.
+`hesaplar` listesindeki elemanlar ise
+ata sınıf `Hesap` türünden değişkenler
+aracılığıyla erişiliyordu.
+
+`KrediliHesap` türü bir nesne `new` etiketli
+ParaCek` fonksiyonunu ancak kendi türünden
+bir değişken aracılığıyla kullanabilecektir.
+İsterseniz, deneme kodlarında `KrediliHesap` 
+türü elemanlardan oluşan başka bir liste
+tanımlayın ve ona `KrediliHesap` türü nesneler
+ekleyin. O zaman para çekme işlemlerinde
+bakiyelerin eksiye düşebildiğini göreceksiniz.

@@ -1,6 +1,6 @@
 ﻿namespace Banka2
 {
-    internal class Banka2_Program
+    internal class Banka2Program
     {
         static void Main(string[] args)
         {

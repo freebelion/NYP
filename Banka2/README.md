@@ -9,7 +9,7 @@ Sınıf tanım başlığındaki<br>
 ifadesi iki sınıf arasındaki türetme ilişkisini
 gösteriyor. **:** sembolünün sağındaki `Hesap`
 sınıfı bu ilişkideki "ata sınıf" (*ancestor class*)
-veya "ana sınıf"tır (*parent class*).
+veya "ana sınıf"tır (*parent class*). 
 **:** sembolünün solundaki `KrediliHesap` sınıfı
 ise "türetilen sınıf" (*derived class*)
 veya "çocuk sınıf"tır (*child class*).
@@ -36,14 +36,14 @@ Ata sınıfın belli bir davranışını belirleyen
 bir özellik veya fonksiyon onu sanallaştıran
 `virtual` etiketiyle tanımlanmışsa,
 türetilmiş sınıf onu `override` etiketiyle
-yeniden tanımlayabilir.Òrijinali `Hesap` sınıfında
+yeniden tanımlayabilir. Orijinali `Hesap` sınıfında
 yer alan `ParaCek` fonksiyonunda işte bunu gösteriyorum.
 `KrediliHesap` sınıfı bu fonksiyonu yeniden
 tanımlıyor ki hesap bakiyesi belli bir eksi limite
 kadar düşebiliyor.
 
 Deneme amaçlı program kodlarında `Hesap` türü
-nesnelerin listeinde son beş eleman aslında
+nesnelerin listesinde son beş eleman aslında
 `KrediliHesap` türü nesnelerdir.
 Programı çalıştırıp denerseniz,
 1005 ila 1009 numaralı bu hesaplarda

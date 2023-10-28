@@ -20,3 +20,6 @@ Projeleri derslerdeki işlenme sırasıyla aşağıda listeliyorum:
 1. [**Vector1**](Vector1/README.md)
 1. [**Dikdortgen1**](Dikdortgen1/README.md)
 1. [**Banka1**](Banka1/README.md)
+1. [**Banka2**](Banka2/README.md)
+1. [**Seri1**](Seri1/README.md)
+1. [**Mat1**](Mat1/README.md)

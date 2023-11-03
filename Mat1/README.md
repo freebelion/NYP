@@ -28,6 +28,9 @@ public interface Fonksiyon
 Bu bir sınıf tanımı değildir. İçeriğinde üye değişken
 tanımları yoktur ve olamaz da. Yalnızca özellik veya
 fonksiyon tanımları içerir, onların da kod blokları olamaz.
+Bir arabirimi üye değişkenlerde saklanacak ortak bilgileri
+olmayan farklı sınıfların ortak davranışlarını "dikte etmek"
+için tanımlarız.
 
 ### Arabirim tanımını uyarlamak
 Yukarıdaki arabirim tanımını bu projedeki **Siniflar.cs**

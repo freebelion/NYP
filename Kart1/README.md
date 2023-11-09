@@ -9,10 +9,10 @@ için de bu karakter dizgisinden alınacak değerin sıra numarasını
 saklıyor.
 
 ### Diziler ve listelerde otomatik sıralama
-Bu projedeki yenilik, temsil ettiği karları sıralayabilmek için
+Bu projedeki yenilik, temsil ettiği kartları sıralayabilmek için
 hazır bir fonksiyon kullanıyor olmam.
 `Array` türüyle temsil edilen diziler için `Array.Sort()` 
-fonskiyonuyla, `List<>` türü jenerik listeler için de o sınıfa
+fonksiyonuyla, `List<>` türü jenerik listeler için de o sınıfa
 ait `Sort()` fonksiyonuyla otomatik sıralama yaptırabiliriz.
 Sayı türü değerler (`int`, `double` vb.) veya karakter dizgisi
 (`string`) gibi bilenen türler için bu sıralama fonksiyonları
@@ -22,7 +22,7 @@ yapacaklardır.
 ### Otomatik sıralama için arabirim uyarlamak
 Kendi tanımladığımız sınıf türünden  elemanlar içeren dizi veya
 listelerde otomatik sıralama yaptırmak istersek, o sınıf tanımında
-`IComparable<T>` arabirimini uarlamamız gerekir. Ben de `Kart`
+`IComparable<T>` arabirimini uyarlamamız gerekir. Ben de `Kart`
 sınıfında bir `Kart` nesnesini bir başka `Kart` nesnesi ile
 karşılaştırma yeteneği ekleyen `IComparable<Kart>` arabirimini
 uyarladım.
@@ -31,7 +31,7 @@ uyarladım.
 uyarlamak için bir sınıf tanımında nesneyi `object` türünden,
 yani en genel türden bir başka nesne ile karşılaştıran 
 `CompareTo(object diger)` fonksionu olmalıdır.
-Nesne kendisi diğer nesneden daha büyükse bu fonksiyonla +1,
+Nesne kendisi diğer nesneden daha büyükse bu fonksiyon +1,
 kendisi daha küçükse -1 gönderecektir. Nesne diğer nesne ile
 aynıysa `CompareTo` sonucu 0 olacaktır.
 > *Yani, tabi ki bu sonuçlar olgun meyve gibi ağaçtan
@@ -39,9 +39,9 @@ aynıysa `CompareTo` sonucu 0 olacaktır.
 
 Ben argüman olarak genel nesne türü `object` değil de,
 `diger`adlı bir başka `Kart` nesnesi alan bir karşılaştırma
-fonksiyonu yazdım. Eski bir "kart kurdu"(?) olarak
-hangi renk ve sayının hangisinden üstün olduğuna dair bilgilerimi
-kullanarak bu fonksiyondan beklenen sonuçları üretecek kodları yazdım.
+fonksiyonu yazdım. Hangi renk ve sayının hangisinden üstün olduğuna
+dair bilgileri taradıktan sonra, bu fonksiyondan beklenen sonuçları
+üretecek kodları yazdım.
 
 ### Başka yenilikler
 Deneme kodlarını içeren ana program kodlarına bakarsanız,
@@ -49,7 +49,7 @@ Deneme kodlarını içeren ana program kodlarına bakarsanız,
 ilk sıralı haliyle yazdırıyorum.
 
 Kartların oyun öncesi karılmasını temsilen, `ListeKaristirici`
-adlı bir sınıf tanımında jenerik `bir listeye elemanların
+adlı bir sınıf tanımında jenerik bir listeye elemanların
 sırasını karıştırma yeteneği ekleyen bir fonksiyon tanımı ekledim.
 Ana programda bu karıştırma fonksiyonunu `deste` üzerinde kullandım,
 ve kartları karıştırılmış sırayla yeniden listelettim.

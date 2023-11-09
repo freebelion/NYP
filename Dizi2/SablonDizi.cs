@@ -1,41 +1,41 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dizi1
+namespace Dizi2
 {
     /// <summary>
-    /// İçeriğindeki ondalıklı sayılar dizisine
-    /// eleman ekleme imkanı sunan bir "esnek" dizi sınıfı.
+    /// Eleman türünün kullanıcı-programcı tarafından belirlenmesine
+    /// imkan veren şablo dizi sınıfı
     /// </summary>
-    internal class Dizi
+    /// <typeparam name="T">Sonradan belirlenecek eleman türü</typeparam>
+    public class SablonDizi<T>
     {
-        private double[] _array;
+        private T[] _array;
 
         public int ElemanSayisi { get; private set; }
 
         public int Kapasite
-        { get { return _array.Length; } } 
+        { get { return _array.Length; } }
 
-        public Dizi()
-        { 
-            _array = new double[1];
+        public SablonDizi()
+        {
+            _array = new T[1];
             ElemanSayisi = 0;
         }
 
-        public Dizi(int ilk_kapasite)
+        public SablonDizi(int ilk_kapasite)
         {
             if (ilk_kapasite > 0)
-            { _array = new double[ilk_kapasite]; }
+            { _array = new T[ilk_kapasite]; }
             else
-            { throw(new ArgumentException("Dizi kapasitesi 0 veya negatif olamaz!"));}
+            { throw (new ArgumentException("Dizi kapasitesi 0 veya negatif olamaz!")); }
             ElemanSayisi = 0;
         }
 
-        public double this[int sirano]
+        public T this[int sirano]
         {
             // Sıra numarasını kontrol edecek koşulifadeleri ekleyin.
             get { return _array[sirano]; }
@@ -44,13 +44,13 @@ namespace Dizi1
 
         private void KapasiteArttir()
         {
-            double[] _newarray = new double[Kapasite * 2];
-            for(int i = 0; i < Kapasite; i++)
+            T[] _newarray = new T[Kapasite * 2];
+            for (int i = 0; i < Kapasite; i++)
             { _newarray[i] = _array[i]; }
             _array = _newarray;
         }
 
-        public void Ekle(double yenieleman)
+        public void Ekle(T yenieleman)
         {
             if (ElemanSayisi == Kapasite)
             { KapasiteArttir(); }
@@ -65,7 +65,7 @@ namespace Dizi1
         /// </summary>
         /// <param name="arananeleman">Aranan değer</param>
         /// <returns></returns>
-        public int? SiraNo(double arananeleman)
+        public int? SiraNo(T arananeleman)
         {
             // İçeriğini siz yazın.
         }

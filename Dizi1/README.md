@@ -58,5 +58,5 @@ bir kaç değişik kavramı tanıtmayı umuyorum:
   yerine `List<>` türü bir liste kullanmak
   daha doğru olurdu.
   Yine de, egzersiz yapsınlar diye,
-  yeni programcıların bu sınıf tanımındaki
-  eksikleri tamamlamalarını öneriyorum.
+  yeni programcıların bu sınıf tanımında
+  boş bıraktığım yerleri tamamlamalarını öneriyorum.

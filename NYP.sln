@@ -34,7 +34,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dizi1", "Dizi1\Dizi1.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dizi2", "Dizi2\Dizi2.csproj", "{AA5365EC-0C1A-433B-98C1-9BAF18A72F45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kart1", "Kart1\Kart1.csproj", "{7D526575-CDF5-44A7-A6AB-74426B8C5417}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kart1", "Kart1\Kart1.csproj", "{7D526575-CDF5-44A7-A6AB-74426B8C5417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dizi3", "Dizi3\Dizi3.csproj", "{7B435D5F-DB5E-4E8C-9245-DF8FDD677478}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -98,6 +100,10 @@ Global
 		{7D526575-CDF5-44A7-A6AB-74426B8C5417}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D526575-CDF5-44A7-A6AB-74426B8C5417}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D526575-CDF5-44A7-A6AB-74426B8C5417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B435D5F-DB5E-4E8C-9245-DF8FDD677478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B435D5F-DB5E-4E8C-9245-DF8FDD677478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B435D5F-DB5E-4E8C-9245-DF8FDD677478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B435D5F-DB5E-4E8C-9245-DF8FDD677478}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

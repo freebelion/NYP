@@ -11,7 +11,7 @@ değişkenlerinin ayrı tanımlanmalarının
 yaratacağı zorlukları görmek zor değildir.
 
 Bir programda çok sayıda kesir nesnesi
-oluştuırlacaksa, daha da kötüsü,
+oluşturulacaksa, daha da kötüsü,
 kaç tane kesir nesnesinin olacağı
 bilinmiyorsa, pay ve paydaların ayrı
 tanımlanması mantıksız olacaktır.

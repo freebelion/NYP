@@ -137,5 +137,5 @@ ve bazı önemli farklar vardır:
       ama`abstract` etiketiyle soyutlaştırılmamış
       fonksiyonların kod blokları olabilir.
 - **Arabirim tanımlarındaki özellik veya fonksiyon
-    tanımları àbstract` etiketi gerektirmezler;
+    tanımları `abstract` etiketi gerektirmezler;
     zaten soyutturlar.**

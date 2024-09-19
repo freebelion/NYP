@@ -14,5 +14,5 @@ olarak yazdırıp yanına da ondalıklı eşdeğeri
 Kesir[2/5] = 0,4
 ```
 
-Sistem Türkçe olduğu için .NET ondalıkayıraç
+Sistem Türkçe olduğu için .NET ondalık ayıraç
 olarak virgül karakterini kullanmıştır.

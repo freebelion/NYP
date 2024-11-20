@@ -27,3 +27,12 @@ Projeleri derslerdeki işlenme sırasıyla aşağıda listeliyorum:
 1. [**Dizi2**](Dizi2/README.md)
 1. [**Kart1**](Kart1/README.md)
 1. [**Dizi3**](Dizi3/README.md)
+
+Yukarıdaki projeler nesneye yönelik programlamanın
+temel prensiplerini açıklamaya yönelik örneklerdi.
+Bunları daha sonra **Ornekler** adlı çözüm klasörüne kaydırdım.
+
+Tasarım desenleriyle ilgili sonraki örnekleri de
+**Desenler** adlı bir başka çözüm klasöründe topladım.
+
+1. [**Fabrika1**](Fabrika1/README.md)

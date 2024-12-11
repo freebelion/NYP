@@ -19,7 +19,7 @@ namespace Fabrika1
 
         public string Rapor(DateTime raporTarih)
         {
-            // Rapor dediğimiz şey de aslında rasgele belirlenen bir kar7zarar bildirimi:
+            // Rapor dediğimiz şey de aslında rasgele belirlenen bir kar/zarar bildirimi:
             decimal bilanco = (decimal)(-5E6 + 10E6 * Oda.RND.NextDouble());
 
             return string.Format("{0} {1} bilançosu: {2}", Ad, raporTarih.ToString("yyyy MMMM"), bilanco.ToString("C2"));

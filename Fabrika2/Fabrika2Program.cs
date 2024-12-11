@@ -1,6 +1,6 @@
 ﻿namespace Fabrika2
 {
-    internal class Program
+    internal class Fabrika2Program
     {
         static void Main(string[] args)
         {

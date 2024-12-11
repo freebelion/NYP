@@ -1,7 +1,7 @@
 ﻿## Fabrika1
 Bu proje Fabrika (**Factory**) tasarım deseninin tanıtımındaki ilk örnektir.
-Bu açıklamaları okuyanlar projenin son halini görecektir tabi ki,
-ve o yüzden de programı geliştirme aşamalarını görmeyeceklerdir. 
+Bu açıklamaları okuyanlar projenin geliştirme aşamalarını değil de,
+son halini görecektir tabi ki.
 Projeyi daha anlaşılır kılmak için, kodları yazarken
 neyi neden nasıl yaptığımı adım adım açıklamaya çalışacağım:
 
@@ -96,7 +96,7 @@ neyi neden nasıl yaptığımı adım adım açıklamaya çalışacağım:
   başvuruda belirtilen firma sermayesine, faliyet sektörüne, 
   ortak sayısına, vb. göre incelenir ve uygun görülürse onaylanırdı.
   Başvurunun onaylanması halinde de yeni kayıt edilen firma için
-  geçerli olacak vergi oranları, teşvik birimleri vb. belirlenirdi.
+  geçerli olacak vergi oranları, teşvik tutarları vb. belirlenirdi.
   Tüm bu onay ve değer atama işlemleri zaman zaman değişebilen
   resmi düzenlemelere bağlı olacağı için,
   ara ara o kodları bulup değiştirmek gerekirdi.<br>
@@ -141,7 +141,7 @@ neyi neden nasıl yaptığımı adım adım açıklamaya çalışacağım:
   ```
         public string Rapor(DateTime raporTarih)
         {
-            // Rapor dediğimiz şey de aslında rasgele belirlenen bir kar7zarar bildirimi:
+            // Rapor dediğimiz şey de aslında rasgele belirlenen bir kar/zarar bildirimi:
             decimal bilanco = (decimal)(-5E6 + 10E6 * Oda.RND.NextDouble());
 
             return string.Format("{0} {1} bilançosu: {2}", Ad, raporTarih.ToString("yyyy MMMM"), bilanco.ToString("C2"));

@@ -111,4 +111,40 @@ aşağıda özetlemeye çalıştım:
         }
     }
 ```
-
+- Gördüğünüz gibi, farklı sektörlerdeki firmaları temsil eden sınıflar
+  yalnızca sektörün adını ekleyen taklit raporlar gönderiyorlar.
+  Tanıtım amaçlı bu proje için o kadarı yeter.
+- **Fabrika1** projesinde firma kimlik bilgileri
+  firma adı ve sicil (kayıt) numarasından ibaretti.
+  Halbuki gerçek hayattaki bir projede kimlik bilgileri
+  firma adını, kuruluş zamanını, kuruluş sermayesini,
+  faliyet sektörünü, ortak sayısını, ve daha bir çok bilgiyi içerebilir.
+- Daha da geniş düşünürsek, kimlik bilgileri firmaları kaydedip takip eden
+  kuruluşun amaçlarına göre de değiştir. Örneğin, bir ticaret odası
+  firmaların finansal faliyetlerine veya muhasebe işlemlerine
+  temel olacak bilgilerine ihtiyaç duyacaktır, ama firma birlikleri
+  veya dernekleri onların sektörün gelişmesine yönelik faliyetlerine
+  odaklanacaktır.
+- Dolayısıyla, bu örnek projede firma kimlik bilgilerini ayrı bir sınıfta
+  toplamaya karar verdim. Bir "bileşen sınıf" diye düşünebileceğimiz
+  `FirmaKimlik` sınıfı programdan programa veya dönemden döneme
+  değişebilecek olan kimlik bilgilerini firmaları temsil eden
+  sınıflardan ayrı tutuyor.
+- Her türden firma bu kimlik bilgilerini saklamak zorunda olduğu
+  için de, firma kimlik bilgisini saklayacak olan `Kimlik` özelliği
+  tanımını soyut ana sınıf `Firma`tanımına koydum.
+  Böylelikle, farklı sektör firmalarını temsil eden sınıflar
+  o özelliği yeniden tanımlamıyorlar, ama ilk kimlik bilgileriyle
+  firma oluşturmak gerektiğinde, kendi kurucu fonksiyonlarından
+  soyut ana sınıfın kurucu fonksiyonunu çağırıyorlar.
+- Gerçek firmaları temsil edecek sınıfların ortak özellik
+  ve davranışlarını bir soyut ana sınıfta toplamak iyi bir
+  fikir olsa da, geniş kapsamlı bir gerçek projede
+  bir alt sınıf türünden nesne oluşturulduğunda
+  bu ortak özellik ve davranışlarda
+  farklı düzenlemeler yapmak gerekebilir.
+  O durumda ya ana sınıfta nesne türüne göre `if`-`else`
+  ya da `switch` blokları ile seçimler yapılması
+  gerekecektir, ya da nesne türüne göre yapılacak
+  düzenlemeler alt sınıflara ait kodlarla
+  gerçekleştirilecektir.

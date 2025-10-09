@@ -92,18 +92,22 @@ neyi neden nasıl yaptığımı adım adım açıklamaya çalışacağım:
   Bu projedeki "fabrika" aslında bu fonksiyon.
 - Nesne oluşturma işini ayrı bir fonksiyonda yaptırarak
   bu işin gerektirdiği tüm işlemleri belli bir yere toplamış oldum.
-  Gerçek hayattaki bir kayıt/takip programında firma kaydı
-  başvuruda belirtilen firma sermayesine, faliyet sektörüne, 
-  ortak sayısına, vb. göre incelenir ve uygun görülürse onaylanırdı.
-  Başvurunun onaylanması halinde de yeni kayıt edilen firma için
+
+  - Gerçek hayattaki bir kayıt/takip programında firma kaydı
+    başvuruda belirtilen firma sermayesine, faliyet sektörüne,
+    ortak sayısına, vb. göre incelenir ve uygun görülürse onaylanırdı.
+ 
+  - Başvurunun onaylanması halinde de yeni kayıt edilen firma için
   geçerli olacak vergi oranları, teşvik tutarları vb. belirlenirdi.
-  Tüm bu onay ve değer atama işlemleri zaman zaman değişebilen
+  
+  - Tüm bu onay ve değer atama işlemleri zaman zaman değişebilen
   resmi düzenlemelere bağlı olacağı için,
-  ara ara o kodları bulup değiştirmek gerekirdi.<br>
-  Gerçi ben bu taklit programda herhangi bir onay incelemesi
+  ara ara o kodları bulup değiştirmek gerekirdi.
+  > *Gerçi ben bu taklit programda herhangi bir onay incelemesi
   yaptırmıyorum, ama nesne oluşturma işini bu fabrika fonksiyonunda
   toplamış olduğum için, değişiklik gerekmesi halinde 
-  dönüp değiştireceğim kodların nerede olduklarını biliyorum.
+  dönüp değiştireceğim kodların nerede olduklarını biliyorum.*
+
 - Hayali ticaret odası kaydettiği firmalardan düzenli raporlar isteyecektir.
   Bu programda bu raporlama işlemini aşağıdaki gibi taklit ediyorum:
 

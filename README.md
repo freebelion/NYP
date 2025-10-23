@@ -4,32 +4,26 @@ Bu çözüm grubunda C# ile nesneye yönelik programlamayı
 sunuyorum. Bu çalışmaya yürüttüğüm dersleri alan öğrencilere
 yardımcı olmak için başladım, ama konu hakkında fikir edinmek
 isteyen başka yeni programcılara da yardımcı olacağını umuyorum.
-	<div style="background-color:#eee">
-	In this solution, I present Console Application and WPF Application
-	projects intended to teach object-oriented programming with C#.
-	I have started this work to help students taking the classes
-	that I teach, but I hope they will also be helpful for other
-	new programmers who want to develop and understanding of the subject.
-	</div>
+> In this solution, I present Console Application and WPF Application
+projects intended to teach object-oriented programming with C#.
+I have started this work to help students taking the classes
+that I teach, but I hope they will also be helpful for other
+new programmers who want to develop and understanding of the subject.
 
 Her projede geliştirme adımlarını açıklayan bir README dosyası
 olacaktır. Dosya kalabalığını azaltmak için birçok projede yalnızca
 önemli kod dosyaları ile README dosyalarını github'a yükleyeceğim.
-	<div style="background-color:#eee">
-	In every project, there will be a README file which explains the 
-	project's development steps. In order to reduce the clutter,
-	for most of the projects, I will only upload the important code files
-	and the README files to this github repository.
-	</div>
+> In every project, there will be a README file which explains the 
+project's development steps. In order to reduce the clutter,
+for most of the projects, I will only upload the important code files
+and the README files to this github repository.
 
 Projeleri derslerdeki işlenme sırasıyla aşağıda listeliyorum.
 Linkleri tikladığınızda projelerin kod dosyaları ile README
 dosyalarındaki geliştirme adımlarını göreceksiniz.
-	<div style="background-color:#eee">
-	Here, I am listing the projects in the order they are introduced in classes.
-	When you click on the links, you will see the projects' code files
-	and the explanations of the development the steps in README files.
-	</div>
+> Here, I am listing the projects in the order they are introduced in classes.
+When you click on the links, you will see the projects' code files
+and the explanations of the development the steps in README files.
 
 1. [**Kesir1**](Kesir1/README.md)
 1. [**Kesir2**](Kesir2/README.md)
@@ -50,6 +44,10 @@ dosyalarındaki geliştirme adımlarını göreceksiniz.
 Yukarıdaki projeler nesneye yönelik programlamanın
 temel prensiplerini açıklamaya yönelik örneklerdi.
 Bunları daha sonra **Ornekler** adlı çözüm klasörüne kaydırdım.
+> The above projects were examples intended to explain
+the basic principles of object-oriented programming.
+I have later placed them in a solution folder named
+**Ornekler** (Examples).
 
 Tasarım desenleriyle ilgili sonraki örnekleri de
 **Desenler** adlı bir başka çözüm klasöründe topladım.

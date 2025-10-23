@@ -7,6 +7,7 @@
             private int _pay;
             private int _payda;
 
+            // default (empty) constructor
             public Kesir()
             { Pay = 0; Payda = 1; }
 
@@ -50,7 +51,7 @@
 
             // "implicit" olarak etiketlediğim string dönüştürücü işlemcisinin
             // sonucunu test etmek için.
-            Console.WriteLine("Kesir[{0}/{1}] = {2}", k1.Pay, k1.Payda, k1);
+            Console.WriteLine("{0} = {1}", (string)k1, (double)k1);
         }
     }
 }

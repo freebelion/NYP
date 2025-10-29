@@ -112,3 +112,27 @@ ve ardından üye değişken adını yazıyoruz.
 type object, we write the name of the reference variable
 representing the object, followed by the member access
 operator . (dot) and the member variable's name.
+
+`Kesir` sınıfının bir başka önemli özelliği de
+temsil ettiği kesir nesnesinin ondalıklı sayı
+eşdeğerini hesaplacayacak olan `Oran()` fonksiyonudur.
+Sınıf tanımında yer alan böyle bir fonksiyona
+"üye fonksiyon" denir.<br>
+Bir üye fonksiyon nesnenin kendine ait üye değişkenleri
+üzerinde yapılması gereken özelleştirilmiş işlemleri
+gerçekleştirir. Gerçek hayattaki bir profesyonel
+elemanı düşünecek olursanız, bir üye fonksiyon onun 
+"meslek sırrı" olarak gizli tuttuğu özel işlemleri
+gerçekleştirecek olan bir komutlar dizisidir.
+> Another important feature of the `Kesir` class
+is its `Oran()` function which will calculate the
+rational number equivalent of the fraction object.
+Such a function found in a class definition
+is called a "member function".<br>
+A member function performs the  specialized operations
+which will need to be done on the member variables
+belonging to the object itself.
+If you think of a professional worker in the real life,
+a member function is a series of commands which will
+perform the special operations that the worker hides
+as his/her "trade secrets".

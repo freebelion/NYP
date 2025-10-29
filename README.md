@@ -51,7 +51,7 @@ I have later placed them in a solution folder named
 
 Tasarım desenleriyle ilgili sonraki örnekleri de
 **Desenler** adlı bir başka çözüm klasöründe topladım.
-> I have put the other exanples rfelated to design patterns
+> I have put the other exanples related to design patterns
 in another solution folder named **Desenler** (Patterns).
 
 1. [**Fabrika1**](Fabrika1/README.md)

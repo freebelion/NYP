@@ -24,6 +24,6 @@ kaç tane kesir nesnesinin olacağı
 bilinmiyorsa, pay ve paydaların ayrı
 tanımlanması mantıksız olacaktır.
 > If there is going to be many more fraction objects,
-and what's worse, if the number of those fractions
+and even worse, if the number of those fractions
 are not known ahead of time, defining the numerator
 and denominator variables will not be a sensible choice.

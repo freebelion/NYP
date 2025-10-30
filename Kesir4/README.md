@@ -51,12 +51,12 @@ the member variables `pay` and `payda`
 open to outside access with the `public` label.<br>
 In this project, I have added the `private` labels
 to them to prevent free access to them from outside.<br>
-*The privacy of infotmation (**data hiding**) is the
+*The privacy of information (**data hiding**) is the
 second important principle of object-oriented programming.*
 
 Bu gizlilik tercihim nedeniyle, bir kesir nesnesini
 oluşturan `pay` ve `payda` değerleri dışarıdan
-mğrenilip yazılabilsinler diye
+öğrenilip yazılabilsinler diye
 bir kontrollü erişim yolu sağlamam gerekli oldu.
 > Due to my preference of privacy, it became necessary
 for me to provide a means for controlled access

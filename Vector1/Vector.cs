@@ -23,6 +23,11 @@ namespace Vector1
             Y = initY;
         }
 
+        public static Vector operator * (double factor, Vector v)
+        {
+            return new Vector(factor * v.X, factor * v.Y);
+        }
+
         public static Vector operator + (Vector v1, Vector v2)
         {
             return new Vector(v1.X + v2.X, v1.Y + v2.Y);

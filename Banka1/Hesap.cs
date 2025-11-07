@@ -8,25 +8,25 @@ namespace Banka1
 {
     class Hesap
     {
-        private static int hesap_sayisi;
+        // a static variable belongs to the class
+        // it's a available to all objects of this type
+        private static int hesapIndeks;
 
         protected decimal _bakiye;
         private int _hesapNo;
 
+        // a static constructor is needed to initialize static variables that belong to the class
         static Hesap()
-        { hesap_sayisi = 1000; }
+        { hesapIndeks = 1000; }
 
         public Hesap()
         {
-            _hesapNo = hesap_sayisi;
-            hesap_sayisi++;
+            _hesapNo = hesapIndeks;
+            hesapIndeks++;
 
             _bakiye = 0;
         }
-
-        public static int Hesapsayisi
-        { get { return hesap_sayisi; } }
-
+        
         public int No
         { get { return _hesapNo; } }
 

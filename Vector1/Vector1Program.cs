@@ -25,6 +25,12 @@
             { Console.Write("{0} + ", vektorler[i]); }
 
             Console.WriteLine("{0} = {1}", vektorler[i], toplam);
+
+            Vector v1 = new Vector(3,4);
+            double factor = 5;
+            Vector v2 = factor * v1;
+            Console.WriteLine("v1 = {0}\n{1} * {2} = {3}",
+                v1, factor, v1, v2);
         }
     }
 }

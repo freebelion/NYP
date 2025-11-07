@@ -4,13 +4,11 @@
     {
         static void Main(string[] args)
         {
+            // store the current date and time
             DateTime tarih = DateTime.Now;
             Random rnd = new Random((int)tarih.Ticks);
 
-            List<Hesap> hesaplar = new List<Hesap>();
-
-            for (int i = 0; i < 5; i++)
-            { hesaplar.Add(new Hesap()); }
+            List<KrediliHesap> hesaplar = [];
 
             for (int i = 0; i < 5; i++)
             { hesaplar.Add(new KrediliHesap()); }

@@ -13,7 +13,8 @@ namespace Banka2
 
         public override void ParaCek(decimal tutar)
         {
-            if(_bakiye + EKSILIMIT > tutar) { _bakiye -= tutar; }
+            if(_bakiye + EKSILIMIT > tutar)
+            { _bakiye -= tutar; }
         }
     }
 }

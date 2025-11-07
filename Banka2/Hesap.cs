@@ -24,9 +24,6 @@ namespace Banka2
             _bakiye = 0;
         }
 
-        public static int Hesapsayisi
-        { get { return hesap_sayisi; } }
-
         public int No
         { get { return _hesapNo; } }
 

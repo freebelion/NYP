@@ -33,9 +33,9 @@ In other words, I could not count account objects with a member
 variable in the class definition.
 Consequently, I declared the `hesapIndeks` (account index) variable
 with the `static` label so that it would belong to the class.
-In the empty cosntructor of the `Hesap` class,
-I added an incrementing command so that this count would increase
-by one every time a new object was created.
+In the empty constructor of the `Hesap` class,
+I added an incrementing command so that this index
+would increase by one every time a new object was created.
 Very new object will be storing this incremented number
 as its own account number.
 

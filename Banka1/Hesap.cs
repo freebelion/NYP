@@ -21,9 +21,9 @@ namespace Banka1
 
         public Hesap()
         {
-            _hesapNo = hesapIndeks;
             hesapIndeks++;
-
+            _hesapNo = hesapIndeks;
+            
             _bakiye = 0;
         }
         

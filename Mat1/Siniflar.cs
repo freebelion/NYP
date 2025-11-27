@@ -41,30 +41,26 @@ public class Polinom : Fonksiyon
     }
 }
 
-public class TrigPolinom : Fonksiyon
+public class Ustel : Fonksiyon
 {
-    private double _sinK;
-    private double _sinU;
-    private double _cosK;
-    private double _cosU;
+    private double _katsayi;
+    private double _sayi;
+    private double _us;
 
-    public TrigPolinom(double sinKatsayi, double sinUs, double cosKatsayi, double cosUs)
+    public Ustel(double Katsayi, double Sayi, double Us)
     {
-        _sinK = sinKatsayi;
-        _sinU = sinUs;
-        _cosK = cosKatsayi;
-        _cosU = cosUs;
+        _katsayi = Katsayi;
+        _sayi = Sayi;
+        _us = Us;
     }
 
     public double Deger(double x)
     {
-        double y = _sinK * Math.Pow(Math.Sin(x), _sinU);
-        y       += _cosK * Math.Pow(Math.Cos(x), _cosU);
-        return y;
+        return _katsayi * Math.Pow(_sayi, _us);
     }
 
     public double Turev(double x)
     {
-        throw new NotImplementedException();
+        return _katsayi * _us * Math.Pow(_sayi, _us - 1);
     }
 }

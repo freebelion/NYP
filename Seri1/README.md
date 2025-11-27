@@ -75,7 +75,7 @@ but it does not represent a real object
 by itself.
 
 Dolayısıyla, program kodlarında <br>
-`Seri s = new Seri()` <br>
+`Seri s = new Seri();` <br>
 gibi bir komutla bu türden bir nesne tanımlayamam.
 Bu sınıf ancak tanımladığı ortak özelliklere
 sahip olacak başka sınıflar türetmek içindir.
@@ -83,7 +83,7 @@ Gerçek matematiksel serileri temsil edecek sınıflar
 türetilmiş sınıflardır.
 > Consequently, I cannot define an object of
 `Seri` type with a statement like:<br>
-`Seri s = new Seri()` <br>
+`Seri s = new Seri();` <br>
 This class is only intended to derive other classes
 which will have the common properties it defines.
 It is those derived classes which will represent

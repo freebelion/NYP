@@ -6,14 +6,14 @@
         {
             Polinom pol1 = new Polinom(1, 3, 2);
             Polinom pol2 = new Polinom(2, -1, 1);
-            TrigPolinom trpol1 = new TrigPolinom(1, 2, -1, 2);
-            TrigPolinom trpol2 = new TrigPolinom(2, 1, 3, 1);
+            Ustel ust1 = new Ustel(1, 2, -0.5);
+            Ustel ust2 = new Ustel(2.5, 1, 3);
 
             List<Fonksiyon> fonksiyonlar = new List<Fonksiyon>();
             fonksiyonlar.Add(pol1);
             fonksiyonlar.Add(pol2);
-            fonksiyonlar.Add(trpol1);
-            fonksiyonlar.Add(trpol2);
+            fonksiyonlar.Add(ust1);
+            fonksiyonlar.Add(ust2);
 
             for(double x = 0; x < 10; x+= 0.1)
             {

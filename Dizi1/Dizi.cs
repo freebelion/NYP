@@ -36,8 +36,8 @@ namespace Dizi1
         }
 
         public double this[int sirano]
-        {
-            // Sıra numarasını kontrol edecek koşulifadeleri ekleyin.
+        {// an indexer property
+            // Sıra numarasını kontrol edecek koşul ifadeleri ekleyin.
             get { return _array[sirano]; }
             set { _array[sirano] = value; }
         }

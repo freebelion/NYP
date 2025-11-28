@@ -4,7 +4,7 @@
     public double Turev(double x);
 }
 
-public class Polinom : Fonksiyon
+public class Polinom : Fonksiyon // Polinom class im plements the Fonksiyon interface
 {
     private double[] _katsayilar;
 

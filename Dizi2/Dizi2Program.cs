@@ -4,7 +4,16 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            SablonDizi<string> strings = new SablonDizi<string>();
+
+            strings.Ekle("Recai");
+            strings.Ekle("Sezai");
+            strings.Ekle("Mesai");
+
+            for (int i = 0; i < strings.ElemanSayisi; i++)
+            {
+                Console.WriteLine("{0}", strings[i]);
+            }
         }
     }
 }

@@ -42,7 +42,6 @@ namespace Kart1
             return string.Format("{0}{1}", renkchar, Deger);
         }
 
-
         public int CompareTo(Kart? diger)
         {
             if (diger == null) return +1;
@@ -61,6 +60,5 @@ namespace Kart1
                 else { return 0; }
             }
         }
-
     }
 }

@@ -19,7 +19,7 @@ aşağıda özetlemeye çalıştım:
     }
 ```
 - Farklı sektörlerde faliyet gösteren firmalar için
-  geçerli olacak vergi oranları, sermaya limitleri,
+  geçerli olacak vergi oranları, sermaye limitleri,
   teşvik tutarları vb. için farklı farklı düzenlemeler
   olacaktır. Dolayısıyla onları temsil edecek farklı
   sınıf tanımlarım olacak:

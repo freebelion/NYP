@@ -31,17 +31,43 @@ in an "interface" definition like the one above.
 **Bu bir sınıf tanımı değildir.**
 İçeriğinde üye değişken tanımları yoktur ve olamaz da.
 Yalnızca özellik veya fonksiyon tanımları içerebilir,
-onların da kod blokları olamaz.
-Bir arabirimi üye değişkenlerde saklanacak ortak bilgileri
-olmayan farklı sınıfların ortak davranışlarını "dikte etmek"
-için tanımlarız.
+onların da kod blokları olamaz.\
+Bir arabirimi bir "yetenek bildirimi" gibi düşünebilirsiniz.
+Bunun en iyi örneklerinden biri çevirmenlik yeteneğidir.
+Herhangi bir kişi çevirmen sertifikası kazanmak
+isterse, bir kaynak dilden bir hedef dile
+çeviri eylemini gerçekleştirebilmelidir.
+Yazılım argosuyla, birisi `ICevirmen` arabirimini uyarlayacaksa,\
+`Cevir(Dil kaynakDil, Dil hedefDil)`\
+fonksiyonunu tanımlamış olmalı
+ve amacına uygun olarak çalıştırmalıdır.\
+Bu kişinin asıl görevi veya işi öğrenci, memur,
+asker, teknisyen, sürücü, vs. olabilir.
+Çevirmenlik onun için ek bir yetenektir.
+Bir sınıf da, temsil ettiği nesne her ne olursa olsun,
+belli bir işlemi gerçekleştirecek bir fonksiyonu
+varsa, o işlemi gerektiren arabirimi uyarlamış olur.
 > **This is not a class definition.**
 It doesn't have member variable declarations
 and neither can it have.
 It can only contain property and function definitions,
-but they cannot have code blocks.
-We define an interface only to dictate the common behaviors
-of different classes which don't have common attributes.
+but they cannot have code blocks.\
+You can think of an interface as a "declaration of an ability".
+One of the best examples of this is the ability to translate.
+If someone desires to earn a translator's certificate,
+he/she should be able to translate from a source language
+to a target language.In the software jargon,
+if someone is going to implement the `ITranslator` interface,
+that person need to have defined the\
+`Translate(Language sourceLanguage, Language targetLanguage)`\
+function and must execute it as intended.\
+The actual job or position of that person
+can  be student, official, soldier, technician, driver, etc.
+Translating will be an additional skill for him/her.
+Likewise, a class, whatever real-life object it represents,
+if it defines a function which performs a certain operation,
+it will have implemented the interface which requires
+that operation.
 
 Yukarıdaki arabirim tanımını bu projedeki **Siniflar.cs**
 adlı kod dosyasına koydum.
@@ -108,9 +134,9 @@ virgüllerle ayırarak iletiyorum. Örneğin,
 ```
 Polinom pol1 = new Polinom(1, 3, 2);
 ```
-komutuyla oluşturduğum nesne aşağıdaki polinomu;<br>
-2 x<sup>2</sup> + 3 x + 1<br>
-temsil etmektedir.
+komutuyla oluşturduğum nesne aşağıdaki\
+2 x<sup>2</sup> + 3 x + 1\
+polinomunu temsil etmektedir.
 > I pass on the arguments to that constructor
 in the call to the `new()` operator which creates
 a new object of `Polinom` type.

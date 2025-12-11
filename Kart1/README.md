@@ -59,7 +59,7 @@ function that compares the object to another object.
 If the object itself is greater than the other object,
 this function will return +1; if it is smaller, -1.
 If the object is the same as the other object,
-the `CompareTo` result will be 0.,
+the `CompareTo` result will be 0.\
 In the `Kart` class, this comparison task is performed
 by the `CompareTo(Kart diger)` function.
 

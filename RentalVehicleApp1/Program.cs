@@ -153,7 +153,7 @@
         static void Main(string[] args)
         {
             // We are starting by creating a number of test vehicles
-            List<RentalVehicle> rentalVehicles = CreateVehicles(150);
+            List<RentalVehicle> rentalVehicles = CreateVehicles(50);
 
             // Requests will be placed in a queue
             Queue<RentalRequest> rentalRequests = new Queue<RentalRequest>();
@@ -166,7 +166,7 @@
             // and matching them with available vehicles
             Console.WriteLine("Keep pressing ENTER to continue to receive rental resuests.");
             Console.WriteLine("You can press any other key to end the loop.");
-            
+            Console.WriteLine();
             DateTime appTime = DateTime.Now; // fake time
             do
             {
@@ -188,10 +188,15 @@
                         rqst.RequestNumber, vhc.PlateNumber);
                     // Keep a record of the contract and printout the action
                     rentalContracts.Add(rntcon);
-                    Console.WriteLine("{0} {1} of Plate number {2} has been assigned to rental request #{3}.",
-                        contractTime.ToString("dd.MM.yyyy HH:mm"), vhc.Type.ToString(), vhc.PlateNumber, rqst.RequestNumber);
+                    Console.WriteLine("{0} {1} with plate number {2} has been assigned to rental request #{3}.",
+                        contractTime.ToString("dd.MM.yyyy HH:mm"), vhc.Type, vhc.PlateNumber, rqst.RequestNumber);
                     // Mark the vehicle as rented
                     vhc.IsRented = true;
+                }
+                else
+                {// Report the lack of a match
+                    Console.WriteLine("{0} No vehicle of {1} type was found to match Request #{2}",
+                        rqst.RequestTime.ToString("dd.MM.yyyy HH:mm"), rqst.RequestType, rqst.RequestNumber);
                 }
 
                 // Remove the request from the queue
@@ -210,7 +215,7 @@
                         RentalVehicle rvhc = rentalVehicles.First(v => v.PlateNumber == rntcon.VehiclePlateNumber);
                         rvhc.IsRented = false;
                         // and print out the outcome
-                        Console.WriteLine("\t{0} {1} of Plate number {2} has been returned.",
+                        Console.WriteLine("\t{0} {1} with plate number {2} has been returned.",
                             rntcon.ReturnTime.ToString("dd.MM.yyyy HH:mm"), rvhc.Type, rvhc.PlateNumber);
                     }
                 }

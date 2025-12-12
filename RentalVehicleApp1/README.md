@@ -153,9 +153,18 @@
     and perform the operations.
   - In WPF-based visual applications or
     .NET MAUI cross-platform applications,
-    an **ViewModel** classes handle the operations;
-    the classes like the ones I defined here
-    are only for storing the objects' attributes and properties.
+    **ViewModel** classes handle the operations
+    and help visualize the outcomes or results
+    in **View**s, the application window and
+    the visual controls it contains.
+  - The classes like the ones I defined here are **Model** classes;
+    they are only for storing the objects' attributes
+    and properties.
+  - The visualizations of the information or state
+    of **Model** classes on **View**s are hendled
+    by **ViewModel** classes.\
+    This method of application development is known as
+    the ""MVVM arhictecture"".
   - To have some ideas about the MVVM architecture,
     look at the WPF-based visual application examples in my repo
     [SWE305](https://github.com/freebelion/SWE305)

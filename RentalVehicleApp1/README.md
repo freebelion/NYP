@@ -95,9 +95,13 @@
   - An object of this type will represent a temporary contract
     between a renter and the company which does the renting.
   - This class also has the bare minimum information
-    about the contract it will represent:\
-    the number of the request it honors,
-    and the identifying information about the rented vehicle.
+    about the contract it will represent:
+    - the number of the request it fulfills,
+    - and the license plate number of the rented vehicle.
+  - If you have even a little experience with relational databases,
+    you will understand that those numbers would serve as relationships
+    - between database tables **RentalContracts** and **RentalRequests**
+    - between database tables **RentalContracts** and **RentalVehicles**
   - Again, a real-life application may have to store
     more details. For example, if a different type of vehicle
     (a sedan auto instead of a compact auto) was assigned,

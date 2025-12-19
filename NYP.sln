@@ -48,6 +48,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fabrika2", "Fabrika2\Fabrik
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentalVehicleApp1", "RentalVehicleApp1\RentalVehicleApp1.csproj", "{8233C980-0FC8-4930-B111-7AA6A39A2C4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolApp1", "SchoolApp1\SchoolApp1.csproj", "{3A6EE69A-AE33-4103-B41E-E72D1C477D1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -126,6 +128,10 @@ Global
 		{8233C980-0FC8-4930-B111-7AA6A39A2C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8233C980-0FC8-4930-B111-7AA6A39A2C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8233C980-0FC8-4930-B111-7AA6A39A2C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A6EE69A-AE33-4103-B41E-E72D1C477D1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A6EE69A-AE33-4103-B41E-E72D1C477D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A6EE69A-AE33-4103-B41E-E72D1C477D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A6EE69A-AE33-4103-B41E-E72D1C477D1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -149,6 +155,7 @@ Global
 		{74A2F297-A6A3-48DB-A0D6-AE9079A75E1A} = {DB9D0970-F4BB-46C0-BB34-5493116D3682}
 		{1D273A5C-6E87-463C-8DAC-902F43BB4D6D} = {DB9D0970-F4BB-46C0-BB34-5493116D3682}
 		{8233C980-0FC8-4930-B111-7AA6A39A2C4A} = {7DF5281C-F086-41FA-8D31-E2999B5EE580}
+		{3A6EE69A-AE33-4103-B41E-E72D1C477D1F} = {7DF5281C-F086-41FA-8D31-E2999B5EE580}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BFFB49D4-617A-4788-BB5C-AB09FA1EA551}

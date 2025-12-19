@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 namespace RentalVehicleApp1
 {
     /// <summary>
-    /// This abstract class represents a vehicle to be rented.
-    /// It serves as the base class for all classes
-    /// which will reprtesent actual vehicle types
+    /// This class represents a vehicle to be rented.
+    /// It can serve as the base class for all classes
+    /// which will represent actual vehicle types
     /// that can be rented out.
     /// </summary>
     public class RentalVehicle

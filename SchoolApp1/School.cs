@@ -15,6 +15,12 @@ namespace SchoolApp1
         public Dictionary<CourseSubject, string> CourseCodes { get; init; }
 
         /// <summary>
+        /// This List will store the matched pairs
+        /// of course codes with definitions of courses offered by the school.
+        /// </summary>
+        public List<CourseDefinition> SchoolCourses { get; init; }
+
+        /// <summary>
         /// This property will store the sessions with their course offerings
         /// </summary>
         public List<Session> SchoolSessions { get; init; }
@@ -29,6 +35,9 @@ namespace SchoolApp1
         { 
             CourseCodes = new Dictionary<CourseSubject, string>();
             LoadCourseCodes();
+
+            SchoolCourses = new List<CourseDefinition>();
+            LoadSchoolCourses();
 
             SchoolSessions = new List<Session>();
         }
@@ -49,6 +58,28 @@ namespace SchoolApp1
         }
 
         /// <summary>
+        /// In a real-world application, the courses offered by the school
+        /// should be loaded from a database. Here, we are just making
+        /// up some definitions.
+        /// </summary>
+        private void LoadSchoolCourses()
+        {
+            CourseDefinition litr101 =
+                new(CourseSubject.Literature,
+                    CourseCodes[CourseSubject.Literature] + "101",
+                    "Introduction to English Literature",
+                    "A general overview of English Literature throughout the ages");
+            SchoolCourses.Add(litr101);
+
+            CourseDefinition mat203 =
+                new(CourseSubject.Mathematics,
+                    CourseCodes[CourseSubject.Mathematics] + "203",
+                    "Introduction to Calculus",
+                    "Discussions on method of derivatives and integrals");
+            SchoolCourses.Add(mat203);
+        }
+
+        /// <summary>
         /// In a real-world application, the school would acquire
         /// information about registering students and load up
         /// the definitions of the courses offered in the new session.
@@ -66,21 +97,12 @@ namespace SchoolApp1
         }
 
         /// <summary>
-        /// This internal method simply makes up some course definitions
+        /// This internal method simply adds the codes of some randomly selected courses
         /// </summary>
         private void LoadSessionCourses(Session schoolSession)
         {
-            schoolSession.SessionCourses.Add(
-                new(CourseSubject.Literature,
-                    CourseCodes[CourseSubject.Literature] + "101",
-                    "Introduction to English Literature",
-                    "A general overview of English Literature throughout the ages"));
-
-            schoolSession.SessionCourses.Add(
-                new(CourseSubject.Mathematics,
-                    CourseCodes[CourseSubject.Mathematics] + "203",
-                    "Introduction to Calculus",
-                    "Discussions on method of derivatives and integrals"));
+            schoolSession.SessionCourses.Add(SchoolCourses[0].Code);
+            schoolSession.SessionCourses.Add(SchoolCourses[1].Code);
         }
     }
 }

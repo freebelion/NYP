@@ -108,9 +108,12 @@ class:
             Description = course_description;
         }
   ```
+- The `School` class should have a generic list of these course definition objects:\
+  `public List<CourseDefinition> SchoolCourses { get; init; }`\
+  That list will hold the definitions of all courses offered by the school.
 
-- Now, you may see the need to define a class to represent
-  a teaching session. It should probably need a string property
+- Our app should also have a class to represent a teaching session.
+  It should probably need a string property
   to store a name, and maybe two properties to store
   the start time and ending time, and a list of courses
   to be offered during the session.
@@ -123,7 +126,7 @@ class:
         public DateTime StartDate { get; init; }
         public DateTime EndDate { get; init; }
 
-        public List<CourseDefinition> SessionCourses { get; private set; }
+        public List<string> SessionCourses { get; private set; }
 
         public Session(DateTime start, DateTime end)
         {
@@ -132,5 +135,27 @@ class:
         }
     }
     ```
+  - An object of this class will not create a whole set of course definitions.
+    It will only store the codes of some of the courses offered by the school.
 
-  
+- Now, it is clear that, my application codes is not even close to a toy application.
+  As I noted earlier, I only wanted to show what kind of considerations go into
+  designing classes.
+- In a real-world application, we would need many more classes to represent students,
+  student grades or years, student enrollments, etc.
+- `Student` objects would store the codes selected by actual students
+  enrolling into those classes.
+  - However, students, in real life, may enroll into different courses
+    in every session. Therefore, a real-world school management application
+    would have a class that combines a school session with student objects.
+- Let's not forget that this sketch of an application also has no classes
+  to represent instructors.
+  - In a real-world application, every course would need a separate class
+    to represent the course offered in that session.
+  - That class would have a reference to an `Instructor` object
+    and would have a list of homeworks/assignments/exams
+    decided by the instructor.
+
+In short, a real-world school management application will need many more
+class definitions in line with the course scheduling and teaching methods
+of actual schools it may work for.
